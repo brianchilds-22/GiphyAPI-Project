@@ -1,1 +1,3 @@
 # GiphyAPI-Project
+
+I created the Avengers Giphy Game! The call to action is the text animation and prompts the user to select a button. Upon selection the Gifs populate the area under the search box. Users can also type in another avenger name and hit the search button then a new button is created above with the "new" Avenger name. When that button is pressed the area is populated with Gifs of the "new" Avenger. The rating of the gif is posted above it and when a gif is clicked it animates and when clicked again the animation stops. I added a background image and some css animations to bring it to life.

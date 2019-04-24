@@ -20,7 +20,7 @@ function generateButtons(topics,classToAdd,areaToAddTo) {
     $(document).on("click",".searchButton", function(){ 
       $('#searches').empty(); // clears gifs adds new
       var type =$(this).data("type"); // click button to store data
-      var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +type+ "&api_key=8Ykbk0xjP3DLoOmjiO3XiGKYxMbn3q82&limit=10";
+      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +type+ "&api_key=8Ykbk0xjP3DLoOmjiO3XiGKYxMbn3q82&limit=10";
       $.ajax({url:queryURL,method:"GET"}) // call to API
         .done(function(response){ // response from API via object
           for(var i=0;i<response.data.length;i++){ // loop through response
